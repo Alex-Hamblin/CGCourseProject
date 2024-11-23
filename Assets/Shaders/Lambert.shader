@@ -20,7 +20,7 @@ Shader "Custom/Lambert"
 				// unity defined variables
 				uniform float4 _LightColor0;
 
-				
+				sampler2D uv_MainTex;
 				
 				// unity 3 definitions
 				// float4x4 _Object2World;

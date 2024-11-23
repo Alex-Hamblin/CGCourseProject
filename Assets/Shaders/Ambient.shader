@@ -58,6 +58,7 @@ Shader "Custom/Ambient"
 				// fragment function
 				float4 frag(vertexOutput i) : COLOR
 				{
+					
 					return i.col;
 				}
 

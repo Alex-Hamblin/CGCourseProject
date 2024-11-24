@@ -31,6 +31,7 @@ Shader "Custom/Lambert"
 				struct vertexInput {
 					float4 vertex: POSITION;
 					float3 normal: NORMAL;
+					
 				};
 
 				struct vertexOutput {
@@ -47,7 +48,7 @@ Shader "Custom/Lambert"
 					float3 normalDirection = normalize(mul(float4(v.normal, 0.0),unity_WorldToObject).xyz);
 					float3 lightDirection;
 					float atten = 1.0;
-
+					
 					lightDirection = normalize(_WorldSpaceLightPos0.xyz);
 					float3 diffuseReflection = atten *_LightColor0.xyz*_Color.rgb*max(0.0,dot(normalDirection, lightDirection));
 

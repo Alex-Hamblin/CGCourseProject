@@ -54,7 +54,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7810822e9adf03f4ea085f85886dd86c, type: 2}
+  - {fileID: 2100000, guid: e5d490754d9c34841b988356ef42c1d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,15 +93,15 @@ LODGroup:
   - screenRelativeHeight: 0.59540004
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: -7511558181221131132, guid: 8970813cd72ba43458b431c1822179f0, type: 3}
+    - renderer: {fileID: 5730356947669134459, guid: 11f22a7e214e3e046a9ecfb6d0a2934a, type: 3}
   - screenRelativeHeight: 0.3
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: -7511558181221131132, guid: 8970813cd72ba43458b431c1822179f0, type: 3}
+    - renderer: {fileID: 5730356947669134459, guid: 11f22a7e214e3e046a9ecfb6d0a2934a, type: 3}
   - screenRelativeHeight: 0.001
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: -7511558181221131132, guid: 8970813cd72ba43458b431c1822179f0, type: 3}
+    - renderer: {fileID: 5730356947669134459, guid: 11f22a7e214e3e046a9ecfb6d0a2934a, type: 3}
   m_Enabled: 1
 --- !u!1001 &6809781117045728222
 PrefabInstance:
@@ -151,6 +151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8970813cd72ba43458b431c1822179f0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13af8e7291110ee44bb4c4aa989517ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8970813cd72ba43458b431c1822179f0, type: 3}
       propertyPath: m_Name
       value: Low Poly tree

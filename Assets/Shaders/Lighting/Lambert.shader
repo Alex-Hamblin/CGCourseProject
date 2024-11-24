@@ -20,7 +20,7 @@ Shader "Custom/Lambert"
 				// unity defined variables
 				uniform float4 _LightColor0;
 
-				sampler2D uv_MainTex;
+				
 				
 				// unity 3 definitions
 				// float4x4 _Object2World;
@@ -39,7 +39,7 @@ Shader "Custom/Lambert"
 					float4 col: COLOR;
 					fixed4 _tex1: Tex;
 				};
-
+				sampler2D uv_MainTex;
 
 				// vertex functions
 				vertexOutput vert(vertexInput v) {
@@ -51,7 +51,7 @@ Shader "Custom/Lambert"
 					
 					lightDirection = normalize(_WorldSpaceLightPos0.xyz);
 					float3 diffuseReflection = atten *_LightColor0.xyz*_Color.rgb*max(0.0,dot(normalDirection, lightDirection));
-
+					
 					o.col = float4(diffuseReflection, 1.0);
 					o.pos = UnityObjectToClipPos(v.vertex);
 					

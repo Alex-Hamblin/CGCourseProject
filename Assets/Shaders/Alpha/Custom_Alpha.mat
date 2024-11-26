@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Bump 1
-  m_Shader: {fileID: 4800000, guid: 07c56b19a9c7ba1478c74c121862efaa, type: 3}
+  m_Name: Custom_Alpha
+  m_Shader: {fileID: 4800000, guid: 0cc5f9cac3d842e45bda31b1cd281cec, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,16 +23,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _myBump:
-        m_Texture: {fileID: 2800000, guid: a155049cba0e56545ba2ba723f033fe0, type: 3}
-        m_Scale: {x: 100, y: 100}
-        m_Offset: {x: 0, y: 0}
-    - _myDiffuse:
-        m_Texture: {fileID: 2800000, guid: d058bf169d893f941a721ffddee13bcf, type: 3}
-        m_Scale: {x: 200, y: 200}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _mySlider: 10
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []

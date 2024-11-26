@@ -37,9 +37,9 @@ Shader "Custom/Lambert"
 				struct vertexOutput {
 					float4 pos: SV_POSITION;
 					float4 col: COLOR;
-					fixed4 _tex1: Tex;
+					float4 tex: TEX;
 				};
-				sampler2D uv_MainTex;
+				sampler2D _Tex1;
 
 				// vertex functions
 				vertexOutput vert(vertexInput v) {

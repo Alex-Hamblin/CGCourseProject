@@ -21,16 +21,21 @@ There are 3 different kinds of lighting shaders in the scene, Lambert, Ambient, 
 The player can also choose to turn textures on or off as well as dissable certain effects. This is done by pressing T(for on), and Y(For off). 
 
 **Texture**
+
 There are textures on all objects in the scene except for the monster, which is using the lighting Shaders. Which means over 90% of our scene has textures. 
 
 **Lighting**
+
 We have made changes to the lighting that allows it to be toggled between the different 
+
 Diffuse:
 
 
 Ambient:
 
+
 Specular:
+
 
 Toon:
 

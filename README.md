@@ -14,6 +14,8 @@ Z,X,C to switch between Lambert, Ambient, and Specular respectively. This only a
 
 T and Y to toggle textures in the scene. 
 
+N and M to toggle Scrolling textures and hologram shader. 
+
 **Improvements**
 
 We decided to change the Scene to better fit the style of game, the larger scene was better for showing off all of the textures at once but made gameplay difficult. What we did was make a smaller arena, and instead of having all of the lighting and effects on screen at once, we made it so that you can toggle between them freely. 
@@ -26,7 +28,7 @@ There are textures on all objects in the scene except for the monster, which is 
 
 **Lighting**
 
-We have made changes to the lighting that allows it to be toggled between the different 
+We have made changes to the lighting that allows it to be toggled between the different types.
 
 Diffuse:
 

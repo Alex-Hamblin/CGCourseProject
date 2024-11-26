@@ -5,7 +5,9 @@ Alex Hamblin
 
 
 **Controls**
+
 WASD to move
+
 Z,X,C to switch between Lambert, Ambient, and Specular respectively. This only applies to the monster as that is what the shader is on. 
 
 1-5 to switch between the colour grading effects

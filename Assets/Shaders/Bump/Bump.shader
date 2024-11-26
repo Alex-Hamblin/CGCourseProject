@@ -7,6 +7,7 @@ Shader "Custom/Bump"
         _mySlider("Bump Ammount", Range(0,10)) = 1
         _Strength("Strength", Float) = 1
         [MaterialToggle] _On("TexOn", float) = 1
+        [MaterialToggle] _BumpOn("BumpToggle", float) = 1
        
 
     }
@@ -33,7 +34,7 @@ Shader "Custom/Bump"
         half _Glossiness;
         half _Metallic;
         fixed4 _Color;
-
+        float _BumpOn;
         
 
         void surf (Input IN, inout SurfaceOutput o)
@@ -42,9 +43,12 @@ Shader "Custom/Bump"
             {
                 o.Albedo = tex2D (_myDiffuse , IN.uv_myDiffuse )* _Strength;
             }
+            if (_BumpOn)
+            {
+                o.Normal = UnpackNormal(tex2D(_myBump, IN.uv_myBump));
+                o.Normal *= float3(_mySlider, _mySlider,1);
+            }
             
-            o.Normal = UnpackNormal(tex2D(_myBump, IN.uv_myBump));
-            o.Normal *= float3(_mySlider, _mySlider,1);
         }
         ENDCG
     }

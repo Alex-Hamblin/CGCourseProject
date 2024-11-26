@@ -85,6 +85,7 @@ Material:
     - _Speed: 10
     - _SrcBlend: 1
     - _UVSec: 0
+    - _WaterOn: 1
     - _ZWrite: 1
     - _mySlider: 0
     m_Colors:

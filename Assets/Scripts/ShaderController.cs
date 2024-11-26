@@ -10,6 +10,9 @@ public class ShaderController : MonoBehaviour
     [SerializeField] Material tree2;
     [SerializeField] Material tree3;
     [SerializeField] Material wall;
+    [SerializeField] Material water;
+    [SerializeField] Material grass;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +52,20 @@ public class ShaderController : MonoBehaviour
             tree3.SetFloat("_On", 0);
             wall.SetFloat("_On", 0);
             bumpground.SetFloat("_On", 0);
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            tree3.SetFloat("_HoloOn", 1);
+            water.SetFloat("_WaterOn", 1);
+            tree1.SetFloat("_BumpOn", 1);
+            grass.SetFloat("_BumpOn", 1);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            tree3.SetFloat("_HoloOn", 0);
+            tree1.SetFloat("_BumpOn", 0);
+            water.SetFloat("_WaterOn", 0);
+            grass.SetFloat("_BumpOn", 0);
         }
 
     }

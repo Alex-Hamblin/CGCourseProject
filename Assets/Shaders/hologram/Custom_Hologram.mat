@@ -30,6 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _HoloOn: 1
     - _On: 1
     - _RimIntensity: 10
     - _RimPower: 0.5

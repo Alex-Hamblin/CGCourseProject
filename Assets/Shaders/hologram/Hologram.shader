@@ -7,6 +7,7 @@ Shader "Custom/Hologram"
         _RimIntensity("Rim Intensity", Range(0.0, 10.0)) = 1.0
         _MainTex("Texture", 2D) = "White" {}
         [MaterialToggle] _On("On", float) = 1
+        [MaterialToggle] _HoloOn("HologramOn", float) = 1
     }
 
     SubShader
@@ -31,7 +32,7 @@ Shader "Custom/Hologram"
         float _RimPower;
         float _RimIntensity; // Declare the rim intensity variable
         float _On;
-        
+        float _HoloOn;
 
         void surf (Input IN, inout SurfaceOutput o)
         {   
@@ -44,10 +45,16 @@ Shader "Custom/Hologram"
             {
                 o.Albedo =  _RimColor.rgb;
             }
-            half rim = 1.0 - saturate(dot(normalize(IN.viewDir), o.Normal));
-            o.Emission = _RimColor.rgb * pow(rim, _RimPower) * 50 * _RimIntensity;
-            o.Alpha = pow(rim, _RimPower); 
+            if (_HoloOn)
+            {
+                half rim = 1.0 - saturate(dot(normalize(IN.viewDir), o.Normal));
+                o.Emission = _RimColor.rgb * pow(rim, _RimPower) * 50 * _RimIntensity;
+                o.Alpha = pow(rim, _RimPower); 
+                
+            }
             fixed4 c =  tex2D(_MainTex,IN.uv_MainTex); 
+           
+            
         }
         ENDCG
     }

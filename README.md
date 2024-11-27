@@ -38,18 +38,33 @@ We have made changes to the lighting that allows it to be toggled between the di
 
 Diffuse:
 
+![image](https://github.com/user-attachments/assets/92336e09-5628-4ac6-9c24-0184267f8673)
+
+
 The diffuse lighting was put on both the background of the scene and the monster. This way it can clearly be shown in the scene, having it in the background allows us to see how the environment is affected by these different lighting shaders. we changed the colour of the shader to better fit the scene and combined it with the ambient and specular shader to allow the player to freely toggle between them.
 
 Ambient:
 
+![image](https://github.com/user-attachments/assets/21984089-0520-43dc-8b0e-aed6d49cf5aa)
+
+
 The ambient lighting was also put in the background and the monster. It can be toggled with a keyboard and you can freely switch between it and the other 2 types of lighting. The Lighting was put in the background to test how it will look on different environemnts, from moving objects to static environment. 
 Specular:
+
+![image](https://github.com/user-attachments/assets/afeac47c-bee7-4641-9bf0-2e81b55ee9e6)
+
 
 The specular Is applied to the monster and the background environment, it can be toggled on and off with a keybind (C to toggle on, X or Z for off). We changed the colour of this shader to better fit in the scene, allowing for a more fitting feel. The same idea applies here as with the other 2 shaders. 
 
 Toon:
 
-We put this shader on certain trees in the scene. We changed this shader by allowing the shader to take textures while still providing the effect of the toon ramp. We also made it so that the toon ramp can be toggled on and off. 
+![image](https://github.com/user-attachments/assets/156734ea-8e66-4644-9757-1845b1f7897f)
+
+
+![image](https://github.com/user-attachments/assets/7acc3653-11ac-4a6d-b535-032846152941)
+
+
+We put this shader on certain trees in the scene. We changed this shader by allowing the shader to take textures while still providing the effect of the toon ramp. This allows us to have the toon style shading, without sacrificing the textures.
 
 **Effects**
 

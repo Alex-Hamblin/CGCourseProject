@@ -33,6 +33,8 @@ There are textures on all objects in the scene except for the monster, which is 
 
 We have made changes to the lighting that allows it to be toggled between the different types. All of the different types of lighting shaders are combined into one. Allowing the player to toggle between them freely with the press of a button. 
 
+![image](https://github.com/user-attachments/assets/091d352e-5e3a-4b47-a2af-06579e13def9)
+
 Diffuse:
 
 The diffuse lighting was put on both the background of the scene and the monster. This way it can clearly be shown in the scene, having it in the background allows us to see how the environment is affected by these different lighting shaders. we changed the colour of the shader to better fit the scene and combined it with the ambient and specular shader to allow the player to freely toggle between them.

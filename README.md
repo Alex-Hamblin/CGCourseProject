@@ -39,10 +39,10 @@ The diffuse lighting was put on both the background of the scene and the monster
 
 Ambient:
 
-
+The ambient lighting was also put in the background and the monster. It can be toggled with a keyboard and you can freely switch between it and the other 2 types of lighting. The Lighting was put in the background to test how it will look on different environemnts, from moving objects to static environment. 
 Specular:
 
-The specular Is applied to the monster and can be toggled on and off with a keybind (C to toggle on, X or Z for off). We changed the colour of this shader to better fit in the scene, allowing for a more fitting feel.
+The specular Is applied to the monster and the background environment, it can be toggled on and off with a keybind (C to toggle on, X or Z for off). We changed the colour of this shader to better fit in the scene, allowing for a more fitting feel. The same idea applies here as with the other 2 shaders. 
 
 Toon:
 

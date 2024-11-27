@@ -27,7 +27,7 @@ The player can also choose to turn textures on or off as well as dissable certai
 
 **Texture**
 
-There are textures on all objects in the scene except for the monster, which is using the lighting Shaders. Which means over 90% of our scene has textures. 
+There are textures on all objects in the scene except for the monster, which is using the lighting Shaders. Which means over 90% of our scene has textures. Most textures in the scene can also freely be toggled on and off. 
 
 **Lighting**
 

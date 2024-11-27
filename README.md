@@ -96,6 +96,12 @@ Alpha:
 This was used to place the Numbers on 3 of the signboards, we used this method as it meshes well with other shaders and allows us to have different effects on the same object. We changed this shader by creating our own custom textures and combining it with another texture, allowing the number to be properly overlayed and still showing the other shaders and effects underneath. 
 
 
+![image](https://github.com/user-attachments/assets/93db035c-8d69-4a8a-924d-c20edb8f5197)
+
+
+![image](https://github.com/user-attachments/assets/62891565-663b-4485-a05a-ec4dbffedb3b)
+
+
 Decal:
 
 The decal shader was used for the final sign, We made it look like it was a piece of paper stuck to a board, so the texture of the number is different from the surrounding area on the object, making it look like it was written on. This helps add more variety to the scene so the player in not just looking at the same object every time for the number. 

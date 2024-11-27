@@ -29,6 +29,9 @@ The player can also choose to turn textures on or off as well as dissable certai
 
 There are textures on all objects in the scene except for the monster, which is using the lighting Shaders. Which means over 90% of our scene has textures. Most textures in the scene can also freely be toggled on and off. 
 
+![ezgif-7-05a55ff2da](https://github.com/user-attachments/assets/05440261-5bc5-43b2-b4fd-c6d541a69466)
+
+
 **Lighting**
 
 We have made changes to the lighting that allows it to be toggled between the different types. All of the different types of lighting shaders are combined into one. Allowing the player to toggle between them freely with the press of a button. 

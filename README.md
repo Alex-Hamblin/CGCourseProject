@@ -71,6 +71,8 @@ The bump map was used for the ground and certain trees in the scene. For this sh
 ![bump](https://github.com/user-attachments/assets/decd336b-8896-451b-b6a2-ec0b0bae6d41)
 
 
+![image](https://github.com/user-attachments/assets/7517f0b9-7507-4e69-8377-489b42bffbab)
+
 Glass:
 
 Hologram: 

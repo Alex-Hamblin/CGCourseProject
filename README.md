@@ -86,6 +86,12 @@ Scrolling Textures:
 
 Water:
 
+![image](https://github.com/user-attachments/assets/6628635a-a219-4e64-8d73-a9b5b2314b79)
+
+![image](https://github.com/user-attachments/assets/0a3ad5c1-ae79-4171-8cd0-f24b6e733140)
+
+
+
 Alpha:
 
 This was used to place the Numbers on 3 of the signboards, we used this method as it meshes well with other shaders and allows us to have different effects on the same object. We changed this shader by creating our own custom textures and combining it with another texture, allowing the number to be properly overlayed and still showing the other shaders and effects underneath. 
@@ -113,6 +119,15 @@ The bump map was used for the ground and certain trees in the scene. For this sh
 ![image](https://github.com/user-attachments/assets/7517f0b9-7507-4e69-8377-489b42bffbab)
 
 Glass:
+
+![image](https://github.com/user-attachments/assets/5e85d659-b39e-4efa-8e71-7f4920a0944b)
+
+![image](https://github.com/user-attachments/assets/916340ba-0610-47f2-b21e-30ca611fb438)
+
+![image](https://github.com/user-attachments/assets/cf51f6ea-0268-421a-92fb-e875fa0306a3)
+
+
+
 
 Hologram: 
 

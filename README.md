@@ -23,7 +23,7 @@ Find all of the numbers scattered around the scene, enter them into the code pan
 
 We decided to change the Scene to better fit the style of game, the larger scene was better for showing off all of the textures at once but made gameplay difficult. What we did was make a smaller arena, and instead of having all of the lighting and effects on screen at once, we made it so that you can toggle between them freely. 
 There are 3 different kinds of lighting shaders in the scene, Lambert, Ambient, and specular. All of these are applied to the monster and the mountains in the background, the player can toggle between them freely by pressing Z(for lambert), X(For Ambient), and C(For specular).
-The player can also choose to turn textures on or off as well as dissable certain effects. This is done by pressing T(for on), and Y(For off). The player can also toggle certain effect by pressing N(for on) and M(for off). 
+The player can also choose to turn textures on or off as well as disable certain effects. This is done by pressing T(for on), and Y(For off). The player can also toggle certain effect by pressing N(for on) and M(for off). 
 
 The boards the numbers were placed on were also changed. They were made more round and instead of a hologram shader, a new outline shader was created and applied to these signboards making them more noticeable and easier to see.
 
@@ -89,7 +89,7 @@ Water + Scrolling Texture:
 
 ![Water](https://github.com/user-attachments/assets/03033c12-ac17-4479-8a7f-6a5a0fe0fabf)
 
-We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene. We used a custom made texture for the water and the shader was made through a combination of two shaders. These shaders are a wave effect shader and a scrolling texture shader. Both can be seen prominently in the shader that when combined create an appealing water effect. The vert section of the code is what creates the wave effects where the code is altering the vertices to varying heights to create the waves in the water. It also includes a calculation for animating the waves based on time and uses sine waves to create a smoother motion. The surf section of the code is modified to create the scrolling texture effect where it is taking the UV coordinates scaled by time and modifying the main texture using these UV coordinates to create the scrolling effct.
+We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene. We used a custom made texture for the water and the shader was made through a combination of two shaders. These shaders are a wave effect shader and a scrolling texture shader. Both can be seen prominently in the shader that when combined create an appealing water effect. The vert section of the code is what creates the wave effects where the code is altering the vertices to varying heights to create the waves in the water. It also includes a calculation for animating the waves based on time and uses sine waves to create a smoother motion. The surf section of the code is modified to create the scrolling texture effect where it is taking the UV coordinates scaled by time and modifying the main texture using these UV coordinates to create the scrolling effect.
 
 Alpha:
 
@@ -133,7 +133,7 @@ Glass:
 
 Glass Texture used from this website https://3dtextures.me/2020/04/29/glass-window-001/
 
-A glass shader was made for the windows that some of the buildings have. The materail was made with a glass texture that was taken from an online source and a basic glass shader taken from in class lectures. Having a proper glass texture helps add a more realistic feel and is a nice touch, we were also implement it's see through nature into gameplay as seen in the screen shot. In the code we set the queue to transparent to make sure the transparent portions can be rendered transparent. The code will calculate the vertex positions and using those vertex positions the fragment shader will calculate the color of each pixel incoporating tints and other effects.
+A glass shader was made for the windows that some of the buildings have. The material was made with a glass texture that was taken from an online source and a basic glass shader taken from in class lectures. Having a proper glass texture helps add a more realistic feel and is a nice touch, we were also implement it's see through nature into gameplay as seen in the screen shot. In the code we set the queue to transparent to make sure the transparent portions can be rendered transparent. The code will calculate the vertex positions and using those vertex positions the fragment shader will calculate the color of each pixel incoporating tints and other effects.
 
 Hologram: 
 

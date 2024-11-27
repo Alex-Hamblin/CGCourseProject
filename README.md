@@ -92,7 +92,7 @@ Water:
 
 ![Water](https://github.com/user-attachments/assets/03033c12-ac17-4479-8a7f-6a5a0fe0fabf)
 
-We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene.
+We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene. We used a custom made texture for the water and the shader was made through a combination of two shaders. These shaders are a wave effect shader and a scrolling texture shader. Both can be seen prominently in the shader that when combined create an appealing water effect. The vert section of the code is what creates the wave effects where the code is altering the vertices to varying heights to create the up and down wave effect in the water. The surf section of the code is
 
 Alpha:
 

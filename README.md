@@ -64,6 +64,14 @@ Decal:
 
 The decal shader was used for the final sign, We made it look like it was a piece of paper stuck to a board, so the texture of the number is different from the surrounding area on the object, making it look like it was written on. This helps add more variety to the scene so the player in not just looking at the same object every time for the number. 
 
+![image](https://github.com/user-attachments/assets/4d437bd1-7191-445e-899b-02c8bc2efb79)
+
+
+![image](https://github.com/user-attachments/assets/3c05f884-71a2-4a45-b190-13b4de0e0de0)
+
+![image](https://github.com/user-attachments/assets/2a98b46e-3d76-40c6-aa28-8c78d4893f5f)
+
+
 Bump Map:
 
 The bump map was used for the ground and certain trees in the scene. For this shader we had created custom textures and added the ability for the bump map to be toggled on and off. We wanted to achieve a realistic look for the grass and also test how it looks on other objects, such as the trees. It adds some depth to the textures instead of them just looking like flat objects. 

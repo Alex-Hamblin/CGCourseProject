@@ -49,6 +49,7 @@ Ambient:
 
 
 The ambient lighting was also put in the background and the monster. It can be toggled with a keyboard and you can freely switch between it and the other 2 types of lighting. The Lighting was put in the background to test how it will look on different environemnts, from moving objects to static environment. 
+
 Specular:
 
 ![image](https://github.com/user-attachments/assets/afeac47c-bee7-4641-9bf0-2e81b55ee9e6)

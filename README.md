@@ -68,6 +68,9 @@ Bump Map:
 
 The bump map was used for the ground and certain trees in the scene. For this shader we had created custom textures and added the ability for the bump map to be toggled on and off. We wanted to achieve a realistic look for the grass and also test how it looks on other objects, such as the trees. It adds some depth to the textures instead of them just looking like flat objects. 
 
+![bump](https://github.com/user-attachments/assets/decd336b-8896-451b-b6a2-ec0b0bae6d41)
+
+
 Glass:
 
 Hologram: 

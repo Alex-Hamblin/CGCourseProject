@@ -143,6 +143,10 @@ Reference used for the hologram shader: https://medium.com/@FeGameArt/unity-tuto
 
 Outline/Extrude:
 
+![image](https://github.com/user-attachments/assets/d8e21eb1-7dfd-4b53-a657-69a7869d5bc8)
+
+An outline shader was added to the signboards to achieve the original objective of making them more noticeable and easier to spot from a distance. In order to achieve this effect, the shader work on two passes to create the desired effect. The first pass is for the actual outline where the code will take the vertexes and push them outwards along the direction of the normals creating the outline with a surface shader that makes the outline visible. The second pass is just to do the normal rendering for the object creating the material that the shader effect can be seen on.
+
 **ColourGrading**
 
 Colour Grading: Color Grading Shader Code

@@ -81,10 +81,7 @@ We put this shader on certain trees in the scene. We changed this shader by allo
 
 **Effects**
 
-Scrolling Textures:
-
-
-Water:
+Water + Scrolling Texture:
 
 ![image](https://github.com/user-attachments/assets/6628635a-a219-4e64-8d73-a9b5b2314b79)
 
@@ -92,7 +89,7 @@ Water:
 
 ![Water](https://github.com/user-attachments/assets/03033c12-ac17-4479-8a7f-6a5a0fe0fabf)
 
-We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene. We used a custom made texture for the water and the shader was made through a combination of two shaders. These shaders are a wave effect shader and a scrolling texture shader. Both can be seen prominently in the shader that when combined create an appealing water effect. The vert section of the code is what creates the wave effects where the code is altering the vertices to varying heights to create the up and down wave effect in the water. The surf section of the code is
+We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene. We used a custom made texture for the water and the shader was made through a combination of two shaders. These shaders are a wave effect shader and a scrolling texture shader. Both can be seen prominently in the shader that when combined create an appealing water effect. The vert section of the code is what creates the wave effects where the code is altering the vertices to varying heights to create the waves in the water. It also includes a calculation for animating the waves based on time and uses sine waves to create a smoother motion. The surf section of the code is modified to create the scrolling texture effect where it is taking the UV coordinates scaled by time and modifying the main texture using these UV coordinates to create the scrolling effct.
 
 Alpha:
 
@@ -128,14 +125,46 @@ Glass:
 
 ![image](https://github.com/user-attachments/assets/cf51f6ea-0268-421a-92fb-e875fa0306a3)
 
+Glass Texture used from this website https://3dtextures.me/2020/04/29/glass-window-001/
 
-
+A glass shader was made for the windows that some of the buildings have. The materail was made with a glass texture that was taken from an online source and a basic glass shader taken from in class lectures. Having a proper glass texture helps add a more realistic feel and is a nice touch, we were also implement it's see through nature into gameplay as seen in the screen shot. In the code we set the queue to transparent to make sure the transparent portions can be rendered transparent. The code will calculate the vertex positions and using those vertex positions the fragment shader will calculate the color of each pixel incoporating tints and other effects.
 
 Hologram: 
 
-Rim:
+![image](https://github.com/user-attachments/assets/ce1aa358-c081-47d6-8516-6aa3393149a3)
+
+
+![image](https://github.com/user-attachments/assets/8fdfabb5-0b56-4a05-9f6c-6b359fc4835b)
+
+
+Was modified to add the properties of Rim Intensity to the base hologram shader. The Emission of the shader was increased to provide a brighter color and effect to the shader. Rim intensity is meant to control how strong the glow effect of the holgram is and thus is multiplied into the emission equation to have the effect working and more noticeable. This effect was used as for a more spooky atmosphere we figured applying it to some trees could act as a nice looking effect but could be seen as a sort of ghost tree or ghost effect.
+
+Reference used for the hologram shader: https://medium.com/@FeGameArt/unity-tutorial-rim-light-shader-905380b28600 The code was used for it's code portions on rim intensity both as an idea and how to set-up the rim intensity property.
 
 Outline/Extrude:
 
 **ColourGrading**
+
+Colour Grading: Color Grading Shader Code
+
+![image](https://github.com/user-attachments/assets/3dd7e905-09be-4f75-83db-4ce0dbb066ec)
+
+Color Grading Camera code
+
+![image](https://github.com/user-attachments/assets/6c6b02e0-4cfb-45b9-9b57-21ebf50976cb)
+
+![image](https://github.com/user-attachments/assets/d8ee62ba-3d4d-4914-82e5-7f1382b9b73c)
+
+![image](https://github.com/user-attachments/assets/ed5c55e2-550a-40a9-9077-a1f5cf364083)
+
+![image](https://github.com/user-attachments/assets/7496bc9f-094a-4ccb-8b81-427c5d7963e1)
+
+![image](https://github.com/user-attachments/assets/a9734be4-5bb9-48d5-9204-21e662eee3ad)
+
+![image](https://github.com/user-attachments/assets/be751a5e-f679-4cb1-86f1-9935acc0ca89)
+
+
+Color Grading was added to add a unique visual style to the game and has toggleable options to allow players to enable it if they want. The color grading choices we used were mainly for cold colors as we wanted to achieve a darker, more spookier feel to the games visuals.
+
+
 

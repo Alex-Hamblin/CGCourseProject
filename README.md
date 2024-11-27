@@ -23,7 +23,7 @@ Find all of the numbers scattered around the scene, enter them into the code pan
 
 We decided to change the Scene to better fit the style of game, the larger scene was better for showing off all of the textures at once but made gameplay difficult. What we did was make a smaller arena, and instead of having all of the lighting and effects on screen at once, we made it so that you can toggle between them freely. 
 There are 3 different kinds of lighting shaders in the scene, Lambert, Ambient, and specular. All of these are applied to the monster and the mountains in the background, the player can toggle between them freely by pressing Z(for lambert), X(For Ambient), and C(For specular).
-The player can also choose to turn textures on or off as well as dissable certain effects. This is done by pressing T(for on), and Y(For off). 
+The player can also choose to turn textures on or off as well as dissable certain effects. This is done by pressing T(for on), and Y(For off). The player can also toggle certain effect by pressing N(for on) and M(for off).
 
 **Texture**
 

@@ -35,13 +35,14 @@ We have made changes to the lighting that allows it to be toggled between the di
 
 Diffuse:
 
+The diffuse lighting was put on both the background of the scene and the monster. This way it can clearly be shown in the scene, having it in the background allows us to see how the environment is affected by these different lighting shaders. we changed the colour of the shader to better fit the scene and combined it with the ambient and specular shader to allow the player to freely toggle between them.
 
 Ambient:
 
-
+The ambient lighting was also put in the background and the monster. It can be toggled with a keyboard and you can freely switch between it and the other 2 types of lighting. The Lighting was put in the background to test how it will look on different environemnts, from moving objects to static environment. 
 Specular:
 
-The specular Is applied to the monster and can be toggled on and off with a keybind (C to toggle on, X or Z for off). We changed the colour of this shader to better fit in the scene, allowing for a more fitting feel.
+The specular Is applied to the monster and the background environment, it can be toggled on and off with a keybind (C to toggle on, X or Z for off). We changed the colour of this shader to better fit in the scene, allowing for a more fitting feel. The same idea applies here as with the other 2 shaders. 
 
 Toon:
 
@@ -63,9 +64,22 @@ Decal:
 
 The decal shader was used for the final sign, We made it look like it was a piece of paper stuck to a board, so the texture of the number is different from the surrounding area on the object, making it look like it was written on. This helps add more variety to the scene so the player in not just looking at the same object every time for the number. 
 
+![image](https://github.com/user-attachments/assets/4d437bd1-7191-445e-899b-02c8bc2efb79)
+
+
+![image](https://github.com/user-attachments/assets/3c05f884-71a2-4a45-b190-13b4de0e0de0)
+
+![image](https://github.com/user-attachments/assets/2a98b46e-3d76-40c6-aa28-8c78d4893f5f)
+
+
 Bump Map:
 
 The bump map was used for the ground and certain trees in the scene. For this shader we had created custom textures and added the ability for the bump map to be toggled on and off. We wanted to achieve a realistic look for the grass and also test how it looks on other objects, such as the trees. It adds some depth to the textures instead of them just looking like flat objects. 
+
+![bump](https://github.com/user-attachments/assets/decd336b-8896-451b-b6a2-ec0b0bae6d41)
+
+
+![image](https://github.com/user-attachments/assets/7517f0b9-7507-4e69-8377-489b42bffbab)
 
 Glass:
 

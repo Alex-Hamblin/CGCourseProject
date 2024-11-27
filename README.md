@@ -33,7 +33,8 @@ There are textures on all objects in the scene except for the monster, which is 
 
 We have made changes to the lighting that allows it to be toggled between the different types. All of the different types of lighting shaders are combined into one. Allowing the player to toggle between them freely with the press of a button. 
 
-![image](https://github.com/user-attachments/assets/091d352e-5e3a-4b47-a2af-06579e13def9)
+![ezgif-7-c652f02e0c](https://github.com/user-attachments/assets/dfc2aa99-a12f-4cfe-a483-6eaaaac412cd)
+
 
 Diffuse:
 

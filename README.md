@@ -90,7 +90,9 @@ Water:
 
 ![image](https://github.com/user-attachments/assets/0a3ad5c1-ae79-4171-8cd0-f24b6e733140)
 
+![Water](https://github.com/user-attachments/assets/03033c12-ac17-4479-8a7f-6a5a0fe0fabf)
 
+We used this shader to create a nice looking water effect to fill out the lake area in the centre of the scene.
 
 Alpha:
 

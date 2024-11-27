@@ -36,6 +36,10 @@ We have made changes to the lighting that allows it to be toggled between the di
 ![ezgif-7-c652f02e0c](https://github.com/user-attachments/assets/dfc2aa99-a12f-4cfe-a483-6eaaaac412cd)
 
 
+![image](https://github.com/user-attachments/assets/14bcb3e4-9b62-4c0f-8585-1614194dc05d)
+
+
+
 Diffuse:
 
 ![image](https://github.com/user-attachments/assets/92336e09-5628-4ac6-9c24-0184267f8673)

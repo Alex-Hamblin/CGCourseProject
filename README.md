@@ -133,7 +133,7 @@ Glass:
 
 Glass Texture used from this website https://3dtextures.me/2020/04/29/glass-window-001/
 
-A glass shader was made for the windows that some of the buildings have. The material was made with a glass texture that was taken from an online source and a basic glass shader taken from in class lectures. Having a proper glass texture helps add a more realistic feel and is a nice touch, we were also implement it's see through nature into gameplay as seen in the screen shot. In the code we set the queue to transparent to make sure the transparent portions can be rendered transparent. The code will calculate the vertex positions and using those vertex positions the fragment shader will calculate the color of each pixel incoporating tints and other effects.
+A glass shader was made for the windows that some of the buildings have. The material was made with a glass texture that was taken from an online source and a basic glass shader taken from in class lectures. Having a proper glass texture helps add a more realistic feel and is a nice touch, we were also implement it's see through nature into gameplay as seen in the screen shot. In the code we set the queue to transparent to make sure the transparent portions can be rendered transparent. The code will calculate the vertex positions and using those vertex positions the fragment shader will calculate the color of each pixel incorporating tints and other effects.
 
 Hologram: 
 
